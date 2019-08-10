@@ -34,7 +34,7 @@ describe String do
   end
 
   describe "#count_sentences" do
-
+binding.pry
     it  "returns the number of sentences in a string" do
       expect("one. two. three?".count_sentences).to eq(3)
       
